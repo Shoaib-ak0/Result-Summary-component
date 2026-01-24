@@ -1,7 +1,8 @@
+
 body{
     text-align: center;
     align-content: center;
-    
+    font-family:"Hanken Grotesk",sans-serif;
 }
 
 
@@ -17,7 +18,11 @@ body{
     background-image: linear-gradient(to right, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     border-radius: 5px;
     width: 250px;
+    height: 350px;
     color: white;
+    justify-content: space-between;
+    
+
 }
 
 .summary-cointainer{
@@ -33,6 +38,23 @@ body{
     
 }
 
+.reaction-container,
+.memory-container,
+.visual-container,.verbal-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    height: 50px;
+    width: 170px;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px 10px;
+    
+}
 
 footer {
     position: fixed;
