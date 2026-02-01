@@ -16,9 +16,10 @@ body{
 
 .result-constainer{
     background-image: linear-gradient(to right, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    border-radius: 5px;
+    border-radius: 25px;
     width: 250px;
     height: 350px;
+    padding: 20px;
     color: white;
     justify-content: space-between;
     
